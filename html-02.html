@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 02</title>
+  </head>
+  <style>
+    li li {
+      list-style-type: circle;
+    }
+    li li li {
+      list-style-type: square;
+    }
+    dd {
+      text-transform: capitalize;
+    }
+  </style>
+  <body>
+    <section>
+      <h2>Les listes numerotés</h2>
+      <ol type="a">
+        <li>souris</li>
+        <li>
+          chiens
+          <ol type="a">
+            <li>bassets</li>
+            <li>caniches</li>
+          </ol>
+        </li>
+        <li>
+          félins
+          <ol>
+            <li>lions</li>
+            <li>tigres</li>
+            <li>
+              chats
+              <ol type="I">
+                <li>chats sauvages</li>
+                <li>chats domestiques</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li>chevaux</li>
+      </ol>
+    </section>
+    <hr />
+    <section>
+      <h2>Les listes non classées</h2>
+      <ul>
+        <li>Souris</li>
+        <li>
+          Chiens
+          <ul>
+            <li>Bassets</li>
+            <li>Caniches</li>
+          </ul>
+        </li>
+        <li>
+          Félins
+          <ul>
+            <li>Lions</li>
+            <li>Tigres</li>
+            <li>
+              Chats
+              <ul>
+                <li>Chats sauvages</li>
+                <li>Chats domestiques</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Chevaux</li>
+      </ul>
+    </section>
+    <hr />
+    <section>
+      <h2>Les listes de definitions</h2>
+      <dl>
+        <dt>jpeg</dt>
+        <dd>joint photographic experts group</dd>
+        <dt>mpeg</dt>
+        <dd>motion picture experts group</dd>
+        <dt>gif</dt>
+        <dd>graphical interchange format</dd>
+      </dl>
+    </section>
+  </body>
+</html>
